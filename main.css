@@ -1,0 +1,302 @@
+@font-face {
+   font-display: swap;
+   font-family: 'Karla';
+   font-style: normal;
+   font-weight: 400;
+   src: url('./fonts/karla-v30-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+   font-display: swap;
+   font-family: 'Karla';
+   font-style: normal;
+   font-weight: 700;
+   src: url('./fonts/karla-v30-latin-700.woff2') format('woff2');
+}
+
+@font-face {
+   font-display: swap;
+   font-family: 'DM Serif Display';
+   font-style: normal;
+   font-weight: 400;
+   src: url('./fonts/dm-serif-display-v12-latin-regular.woff2') format('woff2');
+}
+
+html{
+   scroll-behavior: smooth;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   font-family: 'Karla';
+   font-weight: 700;
+}
+
+.site-header {
+   padding-top: 21px;
+   padding-bottom: 19px;
+}
+
+.container {
+   width: 1280px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+.header-box {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.logo-link {
+   text-decoration: none;
+}
+
+.header-box-item {
+   display: flex;
+   align-items: center;
+}
+
+.header-list {
+   display: flex;
+   align-items: center;
+}
+
+.header-item {
+   list-style: none;
+   margin-right: 25px;
+}
+
+.header-item-link {
+   text-decoration: none;
+   color: #837D88;
+   text-align: center;
+   font-size: 13px;
+   font-family: "Karla", "Arial", sans-serif;
+   font-weight: 700
+}
+
+.header-link {
+   color: #2C2830;
+   text-align: center;
+   font-size: 13px;
+   font-family: "Karla", "Arial", sans-serif;
+   font-weight: 700;
+   border: 1.5px solid #2c2830;
+   background: #fff;
+   padding: 13px 28px;
+   text-decoration: none;
+   margin-left: 7px;
+}
+
+/* hero */
+
+.small-hero {
+   padding-top: 105px;
+   padding-bottom: 127px;
+   background-color: #2d2641;
+   background-image: url("./images/rasm.svg");
+   background-size: 689px 649px;
+   background-position: calc(50% + 633px) calc(50% - -18px);
+   background-repeat: no-repeat;
+
+}
+
+.small-hero-box {
+   display: flex;
+   align-items: flex-start;
+   position: relative;
+}
+
+.small-hero-box-two {
+   width: 540px;
+}
+
+.small-title {
+   color: #fff;
+   font-size: 72px;
+   font-family: "DM Serif Display", "Arial", sans-serif;
+   font-weight: 400;
+   line-height: 64px;
+   margin: 0;
+}
+
+.small-title::before {
+   width: 150px;
+   height: 1px;
+   background-color: #fff;
+   content: "";
+   margin-bottom: 63px;
+   display: block;
+}
+
+.small-desc {
+   color: #fff;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 26px;
+   margin-bottom: 24px;
+}
+
+.small-link {
+   color: #fff;
+   text-align: center;
+   font-size: 13px;
+   border: 1.5px solid #fff;
+   text-decoration: none;
+   padding: 13px 28px;
+}
+
+.small-hero-box-two-img {
+   padding-left: 52px;
+   padding-bottom: 0;
+   margin: 0;
+   position: absolute;
+   right: 0;
+   top: 0px;
+}
+
+/* hero 2 */
+
+.small-hero-two{
+   padding-top: 150px;
+   padding-bottom: 158px;
+   margin-top: 150px;
+}
+
+.small-hero-title{
+   color: #2c2830;
+   font-size: 72px;
+   font-family: "DM Serif Display";
+   font-weight: 400;
+   line-height: 64px;
+   margin: 0;
+}
+
+.small-two-list{
+   display: flex;
+   align-items: center;
+}
+
+.small-two-item{
+   list-style: none;
+   margin-right: 30px;
+   width: 350px;
+   margin-top: 96px;
+}
+
+.small-two-title{
+   color: #2c2830;
+   font-size: 28px;
+   font-family: "DM Serif Display";
+   font-weight: 400;
+   margin-top: 32px;
+   margin-bottom: 0;
+}
+
+.small-two-desc{
+   color: #837d88;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 26px;
+   margin: 0;
+}
+
+/* article */
+
+.site-article{
+   background-image: url("./images/rasmtwo.jpg");
+   background-repeat: no-repeat;
+   background-position: calc(36% + 54px) calc(41% - -2px);
+   margin-bottom: 150px;
+}
+
+.article-wrapper{
+   padding: 69px 80px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.article-title-box{
+   width: 495px;
+}
+
+.article-title{
+   color: #fff;
+   font-size: 56px;
+   font-family: "DM Serif Display";
+   font-weight: 400;
+   line-height: 56px;
+}
+
+.article-link{
+   color: #fff;
+   text-align: center;
+   font-size: 13px;
+   font-weight: 700;
+   border: 1.5px solid #fff;
+   padding: 13px 24px;
+   text-decoration: none;
+}
+
+/* footer */
+
+.site-footer{
+   background-color: #fafafa;
+   padding: 67px 167px 64px;
+   background-image: url("./images/rasm\ 3.svg");
+   background-repeat: no-repeat;
+   background-size: 557px;
+}
+
+.footer-top{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border-bottom: 2px solid #dadada;
+}
+
+.top-item{
+   list-style: none;
+}
+
+.footer-bottom{
+   display: flex;
+
+}
+
+.bottom-box{
+   margin-right: 230px;
+   margin-top: 48px;
+}
+
+.bottom-text{
+   color: #837d88;
+   font-size: 13px;
+   font-family: "Karla";
+   font-weight: 700;
+}
+
+.bottom-list{
+   padding: 0;
+}
+
+.bottom-item{
+   list-style: none;
+   padding-top: 16px;
+}
+
+.bottom-link{
+   text-decoration: none;
+   color: #2D2641;
+   font-size: 13px;
+   font-family: "Karla";
+   font-weight: 700;
+   margin-bottom: 36px;
+}
